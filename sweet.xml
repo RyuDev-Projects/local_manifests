@@ -1,9 +1,16 @@
 <manifest>
   <remote name="romiz" fetch="https://github.com/romiyusnandar" />
   <remote name="ryuui" fetch="https://github.com/RyuUI-Org" />
+  <remote name="pos" fetch="https://github.com/PixelOS-Devices" />
 
+  <!-- Hardware -->
   <project path="hardware/xiaomi" name="hardware_xiaomi" remote="ryuui" revision="vic" />
-  
+
+  <!-- Miui camera -->
+  <project path="device/xiaomi/miuicamera-sweet" name="device_xiaomi_miuicamera-sweet" remote="pos" revision="fifteen" />
+  <project path="vendor/xiaomi/miuicamera-sweet" name="vendor_xiaomi_miuicamera-sweet" remote="pos" revision="fifteen" />
+
+  <!-- Device tree -->
   <project path="device/xiaomi/sweet" name="android_device_xiaomi_sweet" remote="romiz" revision="15-ryu" />
   <project path="device/xiaomi/sm6150-common" name="android_device_xiaomi_sm6150-common" remote="romiz" revision="15-ryu" />
   <project path="kernel/xiaomi/sm6150" name="android_kernel_xiaomi_sm6150" remote="romiz" revision="15" />
