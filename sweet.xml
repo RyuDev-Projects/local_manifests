@@ -1,6 +1,9 @@
 <manifest>
   <remote name="romiz" fetch="https://github.com/romiyusnandar" />
+  <remote name="ryuui" fetch="https://github.com/RyuUI-Org" />
 
+  <project path="hardware/xiaomi" name="hardware_xiaomi" remote="ryuui" revision="vic" />
+  
   <project path="device/xiaomi/sweet" name="android_device_xiaomi_sweet" remote="romiz" revision="15-ryu" />
   <project path="device/xiaomi/sm6150-common" name="android_device_xiaomi_sm6150-common" remote="romiz" revision="15-ryu" />
   <project path="kernel/xiaomi/sm6150" name="android_kernel_xiaomi_sm6150" remote="romiz" revision="15" />
