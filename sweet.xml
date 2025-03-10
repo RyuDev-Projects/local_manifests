@@ -8,7 +8,7 @@
   <project path="hardware/xiaomi" name="hardware_xiaomi" remote="ryuui" revision="vic" />
 
   <!-- Miui camera -->
-  <project path="device/xiaomi/miuicamera-sweet" name="device_xiaomi_miuicamera-sweet" remote="ryudev" revision="fifteen" />
+  <project path="device/xiaomi/miuicamera-sweet" name="device_xiaomi_miuicamera-sweet" remote="ryudev" revision="vic" />
   <project path="vendor/xiaomi/miuicamera-sweet" name="vendor_xiaomi_miuicamera-sweet" remote="lc" revision="vic" />
 
   <!-- ViperFX -->
