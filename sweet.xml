@@ -1,14 +1,18 @@
 <manifest>
   <remote name="romiz" fetch="https://github.com/romiyusnandar" />
   <remote name="ryuui" fetch="https://github.com/RyuUI-Org" />
-  <remote name="pos" fetch="https://github.com/PixelOS-Devices" />
+  <remote name="ryudev" fetch="https://github.com/RyuDev-Projects" />
+  <remote name="lc" fetch="https://git.pontusmail.org/ryudev" />
 
   <!-- Hardware -->
   <project path="hardware/xiaomi" name="hardware_xiaomi" remote="ryuui" revision="vic" />
 
   <!-- Miui camera -->
-  <project path="device/xiaomi/miuicamera-sweet" name="device_xiaomi_miuicamera-sweet" remote="pos" revision="fifteen" />
-  <project path="vendor/xiaomi/miuicamera-sweet" name="vendor_xiaomi_miuicamera-sweet" remote="pos" revision="fifteen" />
+  <project path="device/xiaomi/miuicamera-sweet" name="device_xiaomi_miuicamera-sweet" remote="ryudev" revision="fifteen" />
+  <project path="vendor/xiaomi/miuicamera-sweet" name="vendor_xiaomi_miuicamera-sweet" remote="lc" revision="vic" />
+
+  <!-- ViperFX -->
+  <project path="packages/apps/ViPER4AndroidFX" name="packages_apps_ViPER4AndroidFX" remote="ryudev" revision="v4a" />
 
   <!-- Device tree -->
   <project path="device/xiaomi/sweet" name="android_device_xiaomi_sweet" remote="romiz" revision="15-ryu" />
