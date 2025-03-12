@@ -1,12 +1,13 @@
 <manifest>
   <remote name="ryudev" fetch="https://github.com/RyuDev-Projects" />
   <remote name="romiz" fetch="https://github.com/romiyusnandar" />
+  <remote name="kanon" fetch="https://github.com/KanonifyX" />
 
   <project path="device/sony/akari" name="device_sony_akari" remote="ryudev" revision="vic" />
-  <project path="device/sony/tama-common" name="device_sony_tama-common" remote="ryudev" revision="vic" />
+  <project path="device/sony/tama-common" name="device_sony_tama-common" remote="kanon" revision="15" />
   <project path="kernel/sony/sdm845" name="kernel_tama_sdm845" remote="ryudev" revision="vic" />
   <project path="vendor/sony/akari" name="vendor_sony_akari" remote="ryudev" revision="vic" />
-  <project path="vendor/sony/tama-common" name="vendor_sony_tama-common" remote="ryudev" revision="vic" />
+  <project path="vendor/sony/tama-common" name="vendor_sony_tama-common" remote="kanon" revision="15" />
   <project path="hardware/sony/SonyOpenTelephony" name="hardware_sony_SonyOpenTelephony" remote="ryudev" revision="lineage-22.1" />
   <project path="vendor/ryu-priv/keys" name="vendor_priv_keys" remote="romiz" revision="ryu" />
 </manifest>
